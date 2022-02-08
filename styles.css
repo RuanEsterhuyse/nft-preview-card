@@ -10,13 +10,14 @@ body {
   font-size: 18px;
   font-family: "Outfit", sans-serif;
   color: hsl(215, 51%, 70%);
-  /* background-color: hsl(217, 54%, 11%); */
+  background-color: hsl(217, 54%, 11%);
 }
 
 .main-container {
   width: 385px;
   height: 670px;
   background-color: hsl(217, 54%, 11%);
+
   margin: 0 auto;
   padding-top: 26px;
   margin-bottom: 173px;
@@ -25,7 +26,7 @@ body {
 }
 
 .second-container {
-  background-color: hsl(216, 50%, 16%);
+  background-color: hsl(215, 32%, 27%);
   width: 349px;
   height: 610px;
   margin-left: 20px;
@@ -50,15 +51,21 @@ body {
 
 h2 {
   color: hsl(0, 0%, 100%);
+  font-weight: 600;
 }
 p {
   display: inline;
   color: hsl(215, 51%, 70%);
+  font-weight: 300;
 }
 
 .ETH-image {
   position: relative;
   top: 3px;
+}
+
+.ETH-text {
+  font-size: 400;
 }
 
 .image-avatar {
@@ -96,6 +103,7 @@ hr {
 .clock-text {
   position: absolute;
   right: 20px;
+  font-weight: 400;
 }
 
 .attribution {
