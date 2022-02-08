@@ -1,12 +1,101 @@
-.container {
-  width: 380px;
-  height: 655px;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+  /* background-color: hsl(217, 54%, 11%); */
+}
+
+.main-container {
+  width: 385px;
+  height: 670px;
   background-color: hsl(217, 54%, 11%);
+  margin: 0 auto;
+  padding-top: 26px;
+  margin-bottom: 173px;
+  margin-top: 173px;
+  border-radius: 4%;
+}
+
+.second-container {
+  background-color: hsl(216, 50%, 16%);
+  width: 349px;
+  height: 610px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 4%;
 }
 
 .image {
   width: 301px;
   height: 304px;
+  margin-top: 24px;
+  margin-right: 26px;
+  margin-left: 26px;
+  margin-bottom: 33px;
+  border-radius: 4%;
+}
+
+.third-container {
+  margin-left: 26px;
+  position: relative;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+}
+p {
+  display: inline;
+  color: hsl(215, 51%, 70%);
+}
+
+.ETH-image {
+  position: relative;
+  top: 3px;
+}
+
+.image-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: absolute;
+  bottom: 1px;
+}
+
+.image-text {
+  position: relative;
+  left: 50px;
+  bottom: 6px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  width: 300px;
+}
+
+.Jules {
+  color: white;
+}
+
+.clock-image {
+  position: absolute;
+  left: 200px;
+  bottom: 73px;
+}
+
+.clock-text {
+  position: absolute;
+  right: 20px;
 }
 
 .attribution {
