@@ -1,0 +1,18 @@
+.container {
+  width: 380px;
+  height: 655px;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.image {
+  width: 301px;
+  height: 304px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
