@@ -17,21 +17,21 @@ body {
   width: 385px;
   height: 670px;
   background-color: hsl(217, 54%, 11%);
-
   margin: 0 auto;
   padding-top: 26px;
   margin-bottom: 173px;
   margin-top: 173px;
-  border-radius: 4%;
+  border-radius: 15px;
 }
 
 .second-container {
-  background-color: hsl(215, 32%, 27%);
+  background-color: hsl(216, 50%, 16%);
   width: 349px;
   height: 610px;
   margin-left: 20px;
   margin-right: 20px;
-  border-radius: 4%;
+  border-radius: 15px;
+  position: relative;
 }
 
 .image {
@@ -41,7 +41,8 @@ body {
   margin-right: 26px;
   margin-left: 26px;
   margin-bottom: 33px;
-  border-radius: 4%;
+  border-radius: 10px;
+  position: relative;
 }
 
 .third-container {
@@ -62,6 +63,7 @@ p {
 .ETH-image {
   position: relative;
   top: 3px;
+  left: -3px;
 }
 
 .ETH-text {
@@ -91,7 +93,7 @@ hr {
   width: 300px;
 }
 
-.Jules {
+span {
   color: white;
 }
 
@@ -107,10 +109,45 @@ hr {
   font-weight: 400;
 }
 
+h2,
+span,
+.image {
+  cursor: pointer;
+}
+
+h2:hover,
+span:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.image__container-eye {
+  position: absolute;
+  bottom: 46%;
+  margin-right: 26px;
+  margin-left: 26px;
+  width: 301px;
+  height: 304px;
+  border-radius: 10px;
+  background-color: hsl(178, 100%, 50%, 50%);
+  opacity: 0;
+}
+
+.image__container-eye:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.image-eye {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .attribution {
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 50px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
