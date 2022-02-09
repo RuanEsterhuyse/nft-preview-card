@@ -65,7 +65,8 @@ p {
 }
 
 .ETH-text {
-  font-size: 400;
+  font-weight: 400;
+  color: hsl(178, 100%, 50%);
 }
 
 .image-avatar {
@@ -107,8 +108,9 @@ hr {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
+  padding-top: 25px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
