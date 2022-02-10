@@ -15,7 +15,7 @@ body {
   margin: 110px auto;
 }
 
-main {
+.card {
   width: 385px;
   height: 680px;
   background-color: hsl(217, 54%, 10.6%);
