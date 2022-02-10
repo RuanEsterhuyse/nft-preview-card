@@ -17,7 +17,7 @@ body {
   width: 385px;
   height: 680px;
   background-color: hsl(217, 54%, 10.6%);
-  margin: 173px auto 173px auto;
+  margin: 0 auto;
   padding-top: 26px;
   border-radius: 50px;
 }
@@ -32,7 +32,7 @@ body {
   position: relative;
 }
 
-.image {
+.card__eq-image {
   width: 301px;
   height: 304px;
   margin: 24px 26px 33px 26px;
@@ -49,6 +49,7 @@ h2 {
   color: hsl(0, 0%, 100%);
   font-weight: 600;
 }
+
 p {
   display: inline;
   color: hsl(215, 51%, 70%);
