@@ -17,7 +17,7 @@ body {
   width: 385px;
   height: 680px;
   background-color: hsl(217, 54%, 10.6%);
-  margin: 0 auto;
+  margin: 60px auto 60px auto;
   padding-top: 26px;
   border-radius: 50px;
 }
