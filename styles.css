@@ -11,13 +11,14 @@ body {
   font-family: "Outfit", sans-serif;
   color: hsl(215, 51%, 70%);
   background-color: hsl(217, 54%, 11%);
+  min-height: 100vh;
 }
 
 .card {
   width: 385px;
   height: 680px;
   background-color: hsl(217, 54%, 10.6%);
-  margin: 60px auto 60px auto;
+  margin: 173px auto 173px auto;
   padding-top: 26px;
   border-radius: 50px;
 }
@@ -45,11 +46,16 @@ body {
   position: relative;
 }
 
-h2 {
+h1 {
   color: hsl(0, 0%, 100%);
   font-weight: 600;
+  font-size: 35px;
 }
 
+h1:hover,
+span:hover {
+  color: hsl(178, 100%, 50%);
+}
 p {
   display: inline;
   color: hsl(215, 51%, 70%);
@@ -105,15 +111,10 @@ span {
   color: white;
 }
 
-h2,
+h1,
 span,
 .image {
   cursor: pointer;
-}
-
-h2:hover,
-span:hover {
-  color: hsl(178, 100%, 50%);
 }
 
 .card__eye-image-container {
