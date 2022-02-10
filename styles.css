@@ -33,7 +33,7 @@ body {
   position: relative;
 }
 
-.image {
+.card__image {
   width: 301px;
   height: 304px;
   margin: 24px 26px 33px 26px;
