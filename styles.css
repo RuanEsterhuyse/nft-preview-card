@@ -6,22 +6,27 @@
   box-sizing: border-box;
 }
 
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
 body {
-  font-size: 18px;
+  min-height: 100vh;
+  font-size: 1.8rem;
   font-family: "Outfit", sans-serif;
   color: hsl(215, 51%, 70%);
   background-color: hsl(217, 54%, 11%);
-  min-height: 100vh;
-  margin: 110px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-  width: 385px;
-  height: 680px;
+  max-width: 385px;
   background-color: hsl(217, 54%, 10.6%);
-  margin: 0 auto;
-  margin: 173px auto 173px auto;
-  padding-top: 26px;
   border-radius: 50px;
 }
 
@@ -48,13 +53,15 @@ body {
   position: relative;
 }
 
-h1 {
+h1 a {
   color: hsl(0, 0%, 100%);
   font-weight: 600;
-  font-size: 30px;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
 }
 
-h1:hover,
+h1 :hover,
 span:hover {
   color: hsl(178, 100%, 50%);
 }
@@ -109,8 +116,13 @@ hr {
   bottom: 2px;
 }
 
-span {
+span a {
   color: white;
+  text-decoration: none;
+}
+
+span a:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 h1,
@@ -144,10 +156,18 @@ span,
 }
 
 .attribution {
-  font-size: 14px;
+  position: absolute;
+  bottom: 3rem;
+  font-size: 1.5rem;
   text-align: center;
-  padding-top: 50px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 40rem), screen and (max-height: 50rem) {
+  .attribution {
+    display: none;
+  }
 }
